@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Semantic HTML</title>
+</head>
+<body>
+  <!-- Semantic tags describe the meaning of content, not just its look.
+       This helps screen readers, SEO and code readability. -->
+
+  <!-- header: top of the page or a section -->
+  <header>
+    <h1>My Blog</h1>
+    <!-- nav: main navigation links -->
+    <nav>
+      <a href="#home">Home</a> |
+      <a href="#articles">Articles</a> |
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <!-- main: the unique main content (only one per page) -->
+  <main>
+    <!-- section: a themed group of content -->
+    <section id="articles">
+      <h2>Latest Articles</h2>
+
+      <!-- article: self-contained content that makes sense alone -->
+      <article>
+        <h3>Learning HTML</h3>
+        <p>HTML is the foundation of every website.</p>
+        <time datetime="2026-10-08">October 8, 2026</time>
+      </article>
+
+      <article>
+        <h3>Why Semantic Tags Matter</h3>
+        <p>They make pages easier to read and to find on search engines.</p>
+      </article>
+    </section>
+
+    <!-- aside: related side content -->
+    <aside>
+      <h2>About Me</h2>
+      <p>Learning web development and data analysis.</p>
+    </aside>
+  </main>
+
+  <!-- footer: bottom of the page -->
+  <footer>
+    <p>&copy; 2026 My Blog. All rights reserved.</p>
+  </footer>
+</body>
+</html>
